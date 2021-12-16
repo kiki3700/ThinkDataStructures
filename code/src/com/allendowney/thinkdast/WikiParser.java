@@ -57,7 +57,7 @@ public class WikiParser {
 
 	/**
 	 * Returns the first valid link in a paragraph, or null.
-	 * 
+	 * 이시윜
 	 * @param root
 	 */
 	private Element findFirstLinkPara(Node root) {

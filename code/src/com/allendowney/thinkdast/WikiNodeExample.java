@@ -29,7 +29,8 @@ public class WikiNodeExample {
 				
 		// TODO: avoid selecting paragraphs from sidebars and boxouts
 		Elements paras = content.select("p");
-		Element firstPara = paras.get(0);
+		
+		Element firstPara = paras.get(1);
 		
 		recursiveDFS(firstPara);
 		System.out.println();
